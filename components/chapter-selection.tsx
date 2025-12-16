@@ -17,7 +17,7 @@ export default function ChapterSelection({ onSelectChapter, onSelectAllChapters 
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          {[1, 2, 3, 4].map((chapter) => (
+          {[1, 2, 3, 4, 5, 6, 7].map((chapter) => (
             <Button
               key={chapter}
               onClick={() => onSelectChapter(chapter)}
